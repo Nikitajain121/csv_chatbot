@@ -1,21 +1,9 @@
-# from dotenv import load_dotenv
-# import os
-# import pandas as pd
-# from pandasai import SmartDataframe
-# from pandasai.llm import OpenAI
-# load_dotenv()
-# openai_api_key  = os.environ.get('OPANAI_API_KEY')
-# llm = OpenAI(api_token=openai_api_key)
-# df = pd.read_csv("data/titanic.csv")
-# chat_df = SmartDataframe(df, config={"llm": llm})
-# chat_df.chat("Which person is oldest?")
+
 import streamlit as st
 import pandas as pd
 import os
 from pandasai.llm.openai import OpenAI
 from pandasai import SmartDataframe
-#from pandasai import PandasAI
-
 from dotenv import load_dotenv
 load_dotenv()
 
