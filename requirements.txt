@@ -1,3 +1,5 @@
 streamlit
 openai
 pandasai
+pandas
+python-dotenv
