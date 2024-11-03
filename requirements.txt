@@ -1,7 +1,6 @@
 streamlit
-openai
-pandasai
-#pandas
+#openai
+#pandasai
+pandas
 python-dotenv
-pandas==1.5.3 
-numpy==1.23.5
+
